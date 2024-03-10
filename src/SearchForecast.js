@@ -27,13 +27,14 @@ export default function SearchForecast() {
   }
 
   let form = (
-    <form onSubmit={searchForecast}>
+    <form className="SearchForecast" onSubmit={searchForecast}>
       <input
         type="search"
         placeholder="Search for a city.."
         onChange={updateCity}
+        className="search-form-input"
       />
-      <input type="submit" value="Search" />
+      <input type="submit" value="Search" className="search-form-submit" />
     </form>
   );
 
