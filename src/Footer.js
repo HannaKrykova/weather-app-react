@@ -6,14 +6,18 @@ export default function Footer() {
   return (
     <div className="Footer">
       This project was coded by {""}
-      <a href="https://github.com/HannaKrykova" target="_blank" rel="noopener">
+      <a
+        href="https://github.com/HannaKrykova"
+        target="_blank"
+        rel="noreferrer"
+      >
         Hanna Krykova
       </a>
       , is open-sourced on {""}
       <a
         href="https://github.com/HannaKrykova/weather-app-react"
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
       >
         GitHub
       </a>
@@ -21,7 +25,7 @@ export default function Footer() {
       <a
         href="https://weather-app-react-hannakrykova.netlify.app/"
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
       >
         Netlify
       </a>
