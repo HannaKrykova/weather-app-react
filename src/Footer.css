@@ -1,0 +1,12 @@
+.Footer {
+  border-top: 1px solid #eed3e4;
+  padding-top: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #3a3b3c;
+  font-family: "Karla", sans-serif;
+}
+
+.Footer a {
+  color: #964d7d;
+}

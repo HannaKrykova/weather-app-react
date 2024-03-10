@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import SearchForecast from "./SearchForecast";
 import Footer from "./Footer";
