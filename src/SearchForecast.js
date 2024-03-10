@@ -50,8 +50,8 @@ export default function SearchForecast() {
       <div className="spinnerContainer">
         <TailSpin
           visible={true}
-          height="80"
-          width="80"
+          height="60"
+          width="60"
           color="#964d7d"
           ariaLabel="tail-spin-loading"
           radius="1"
